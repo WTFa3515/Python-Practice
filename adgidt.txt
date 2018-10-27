@@ -1,3 +1,4 @@
 test hello world 
-use push to update
-Synchronize Changes
+Click plus symbol
+command "add adgidt.txt"
+Click "Synchronize Changes"
