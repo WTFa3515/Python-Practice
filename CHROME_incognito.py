@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 #Havent chrome driver
-executable_path = "C:\chromedriver_win32\chromedriver"
+executable_path = "C:\\Users\\user\Desktop\\20181121\\Python-Practice\\chromedriver.exe"
 
 chrome_options = Options()
 
@@ -11,13 +11,11 @@ chrome_options = Options()
 chrome_options.add_argument("--incognito")
 
 # To use my default extension
-chrome_options.add_argument(r"user-data-dir=C:\Users\Mika\AppData\Local\Google\Chrome\User Data")
+#chrome_options.add_argument(r"user-data-dir=C:\Users\Mika\AppData\Local\Google\Chrome\User Data")
 
 driver = webdriver.Chrome(executable_path=executable_path, chrome_options=chrome_options)
-
-driver.get("http://google.com") # This code is not working
-
-time.sleep(60)  # 60 seconds sleep/delay
+#driver.get("http://google.com")
+time.sleep(6)  # 6 seconds sleep/delay
 driver.quit()
 '''
 from selenium import webdriver
