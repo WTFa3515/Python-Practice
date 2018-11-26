@@ -63,3 +63,19 @@ time.sleep(5)
 #web.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='送出'])").click()
 #紀錄訂購資料
 #web.get_screenshot_as_file("screenshot.png")
+
+'''##########店名查詢#########(didnt run)
+wev.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='店名查詢'])").click
+web.find_element_by_id("sn1").click()
+web.find_element_by_id("sn1").clear()
+web.find_element_by_id("sn1").send_keys('全家高雄孟子店')
+web.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='確定'])").click()
+#web.find_element_by_class_name("StoreListM").click
+time.sleep(3)
+web.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='全家高雄孟子店'])").click()
+time.sleep(3)
+web.find_element_by_xpath(u"(.//*[normalize-space(text()) and normalize-space(.)='確定店鋪'])").click()
+'''
+'''##########店號查詢#########
+#fail search
+'''
